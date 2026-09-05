@@ -3,6 +3,7 @@
 **Course:** Software Construction (5th Semester)  
 **Institution:** University of Engineering and Technology, Abbottabad Campus  
 **Date:** September 05, 2026  
+**Repository:** https://github.com/marwa32o/Software-Construction-Lab-03
 
 ---
 
@@ -27,3 +28,20 @@ This lab introduces unit testing in Java using the JUnit 5 framework within NetB
 * **Testing:** `BankAccountTest.java`
   * Validates successful deposits/withdrawals and asserts exception handling using `assertThrows`.
 
+### Task 3: String Utility (Palindrome Checker)
+* **Implementation:** `StringUtil.java`
+  * Implements `isPalindrome()` to check string equality while ignoring non-alphanumeric characters and case sensitivity.
+* **Testing:** `StringUtilTest.java`
+  * Verifies simple words, multi-word phrases, non-palindromes, and `null` values.
+
+### Task 4: Simple Timer Utility
+* **Implementation:** `SimpleTimer.java`
+  * Tracks elapsed time via `start()`, `stop()`, `getElapsedTime()`, and `isRunning()`.
+* **Testing:** `SimpleTimerTest.java`
+  * Asserts state toggles (`running` status) and verifies precise time recording using controlled thread execution delays.
+
+### Task 5: Shopping Cart (Mini Case Study)
+* **Implementation:** `ShoppingCart.java`
+  * Implements `addItem()`, `removeItem()`, `getItemCount()`, and `clear()` methods using a generic `List<String>` to simulate business rules.
+* **Testing:** `ShoppingCartTest.java`
+  * Tests adding items, removing items, clearing the cart, and verifying that removing non-existent items executes safely without throwing exceptions.
